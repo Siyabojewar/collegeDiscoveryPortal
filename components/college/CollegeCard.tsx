@@ -1,17 +1,56 @@
+"use client";
+
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { College } from '@/types/college';
 import { Badge } from '@/components/ui/Badge';
 import { formatLPA } from '@/utils/formatUtils';
+import { useCompare } from '@/hooks/useCompare';
 
 interface CollegeCardProps {
   college: College;
 }
 
 export function CollegeCard({ college }: CollegeCardProps) {
+  const { selectedColleges, addCollege, removeCollege, isCompareFull } = useCompare();
+  const isSelected = selectedColleges.some(c => c.id === college.id);
+
+  const toggleCompare = (e: React.MouseEvent) => {
+    e.preventDefault();
+    if (isSelected) {
+      removeCollege(college.id);
+    } else if (!isCompareFull) {
+      addCollege(college.id);
+    }
+  };
+
   return (
-    <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all duration-300 flex flex-col group h-full">
+    <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all duration-300 flex flex-col group h-full relative">
+      {/* Compare Checkbox */}
+      <div className="absolute top-3 left-3 z-20">
+        <button
+          onClick={toggleCompare}
+          disabled={!isSelected && isCompareFull}
+          className={`flex items-center justify-center w-8 h-8 rounded-full shadow-sm backdrop-blur-md transition-colors ${
+            isSelected 
+              ? 'bg-blue-600 text-white' 
+              : 'bg-white/80 text-gray-400 hover:bg-white hover:text-blue-600 disabled:opacity-50 disabled:cursor-not-allowed'
+          }`}
+          title={isSelected ? "Remove from Compare" : "Add to Compare"}
+        >
+          {isSelected ? (
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+            </svg>
+          ) : (
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+            </svg>
+          )}
+        </button>
+      </div>
+
       {/* Image Section */}
       <div className="relative h-48 w-full overflow-hidden bg-gray-100">
         <Image

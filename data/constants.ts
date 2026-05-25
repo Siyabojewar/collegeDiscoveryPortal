@@ -14,15 +14,16 @@ export const INDIAN_STATES = [
 ];
 
 export const COURSE_TYPES = [
-  "B.Tech",
-  "M.Tech",
-  "MBA",
-  "MBBS",
-  "B.Arch",
-  "BBA",
-  "LLB",
-  "B.Sc",
-  "B.Com"
+  "CSE",
+  "ECE",
+  "Mechanical",
+  "Electrical",
+  "Civil",
+  "IT",
+  "AI",
+  "Data Science",
+  "Aerospace",
+  "Mining"
 ];
 
 export const EXAM_TYPES = [

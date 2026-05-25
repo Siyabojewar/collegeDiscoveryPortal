@@ -1,13 +1,28 @@
+"use client";
+
 import React from 'react';
 import Image from 'next/image';
 import { College } from '@/types/college';
 import { Badge } from '@/components/ui/Badge';
+import { useCompare } from '@/hooks/useCompare';
+import { Button } from '@/components/ui/Button';
 
 interface CollegeHeroProps {
   college: College;
 }
 
 export function CollegeHero({ college }: CollegeHeroProps) {
+  const { selectedColleges, addCollege, removeCollege, isCompareFull } = useCompare();
+  const isSelected = selectedColleges.some(c => c.id === college.id);
+
+  const handleCompare = () => {
+    if (isSelected) {
+      removeCollege(college.id);
+    } else if (!isCompareFull) {
+      addCollege(college.id);
+    }
+  };
+
   return (
     <section className="relative w-full h-[60vh] min-h-[400px] flex items-end">
       {/* Background Image with Gradient Overlay */}
@@ -55,9 +70,37 @@ export function CollegeHero({ college }: CollegeHeroProps) {
             </div>
           </div>
 
-          <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20 text-center shrink-0">
-            <p className="text-gray-300 text-sm uppercase tracking-wider mb-1">NIRF Rank</p>
-            <p className="text-4xl font-extrabold text-white">#{college.ranking}</p>
+          <div className="flex flex-col items-center gap-4 shrink-0">
+            <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20 text-center w-full">
+              <p className="text-gray-300 text-sm uppercase tracking-wider mb-1">NIRF Rank</p>
+              <p className="text-4xl font-extrabold text-white">#{college.ranking}</p>
+            </div>
+            
+            <button 
+              onClick={handleCompare}
+              disabled={!isSelected && isCompareFull}
+              className={`w-full py-2.5 px-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2 ${
+                isSelected 
+                  ? 'bg-blue-600 text-white shadow-lg border border-blue-500' 
+                  : 'bg-white/10 text-white hover:bg-white/20 border border-white/30 backdrop-blur-md disabled:opacity-50 disabled:cursor-not-allowed'
+              }`}
+            >
+              {isSelected ? (
+                <>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Added to Compare
+                </>
+              ) : (
+                <>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                  </svg>
+                  Add to Compare
+                </>
+              )}
+            </button>
           </div>
 
         </div>

@@ -9,14 +9,14 @@ export default function Navbar() {
           CollegeDiscover
         </Link>
         <div className="hidden md:flex gap-6">
-          <Link href="/colleges" className="text-sm font-medium hover:text-primary transition-colors">
+          <Link href="/colleges" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">
             Colleges
+          </Link>
+          <Link href="/predictor" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">
+            Predictor
           </Link>
           <Link href="/compare" className="text-sm font-medium hover:text-primary transition-colors">
             Compare
-          </Link>
-          <Link href="/predictor" className="text-sm font-medium hover:text-primary transition-colors">
-            Predictor
           </Link>
         </div>
         <button className="md:hidden p-2 text-secondary">

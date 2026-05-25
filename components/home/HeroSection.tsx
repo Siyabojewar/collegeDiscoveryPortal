@@ -13,10 +13,7 @@ export function HeroSection() {
       </div>
 
       <div className="relative z-10 container mx-auto px-4 py-24 md:py-32 flex flex-col items-center text-center">
-        <Badge />
-        <span className="inline-block py-1 px-3 rounded-full bg-blue-700/50 text-blue-200 text-sm font-semibold mb-6 border border-blue-600/50 backdrop-blur-sm">
-          Discover 10,000+ Colleges Across India
-        </span>
+
         
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight mb-6 max-w-4xl leading-tight">
           Find Your Dream College <br className="hidden md:block" />
@@ -34,7 +31,7 @@ export function HeroSection() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-4">
-          <Button href="/colleges" variant="primary" size="lg" className="bg-white text-blue-900 hover:bg-gray-100 border-none shadow-xl">
+          <Button href="/colleges" variant="secondary" size="lg" className="border-none shadow-xl hover:bg-gray-100 font-bold">
             Browse All Colleges
           </Button>
           <Button href="/predictor" variant="outline" size="lg" className="border-blue-400 text-white hover:bg-blue-800/50 hover:text-white backdrop-blur-sm">
@@ -46,6 +43,3 @@ export function HeroSection() {
   );
 }
 
-function Badge() {
-  return null;
-}
