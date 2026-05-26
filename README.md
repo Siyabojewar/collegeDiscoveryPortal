@@ -2,6 +2,8 @@
 
 An advanced, intuitive College Discovery & Prediction Portal designed to help students navigate their higher education journey with confidence. Built for modern performance and aesthetics, CollegeDiscover provides personalized college predictions, side-by-side comparisons, and comprehensive college profiles.
 
+**🌐 Live Demo:** [https://college-discovery-portal.vercel.app](https://college-discovery-portal.vercel.app)
+
 ## ✨ Key Features
 
 - **🎯 Intelligent College Predictor**: A sophisticated algorithm that analyzes a student's rank, exam scores, category, and preferred courses to predict realistic college admissions possibilities, categorized neatly into Ambitious, Reach, and Safe options.
