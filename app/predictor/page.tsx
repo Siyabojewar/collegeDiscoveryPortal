@@ -32,8 +32,8 @@ export default function PredictorPage() {
         ) : (
           <div>
             <div className="mb-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-b border-gray-200 pb-6">
-              <div>
-                <h1 className="text-3xl font-bold text-gray-900 mb-2">Your AI Predictions</h1>
+              <div className="mb-8">
+                <h1 className="text-3xl font-bold text-gray-900 mb-2">Your College Predictions</h1>
                 <p className="text-gray-500">
                   Based on Rank: <span className="font-bold text-gray-900">{input.rank}</span> in <span className="font-bold text-gray-900">{input.exam}</span>
                 </p>

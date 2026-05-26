@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="text-center text-sm text-gray-500 mb-6">
           &copy; {new Date().getFullYear()} CollegeDiscover. All rights reserved.
         </div>
-        
+
         <div className="bg-white border border-gray-200 rounded-xl p-6 text-xs text-gray-500 leading-relaxed text-center shadow-sm">
           <p className="font-bold text-gray-700 mb-2">Disclaimer:</p>
           <ul className="space-y-1 inline-block text-left">
