@@ -32,8 +32,6 @@ export const EXAM_TYPES = [
   "CAT",
   "NEET",
   "GATE",
-  "CLAT",
-  "XAT",
   "BITSAT",
   "MHT CET"
 ];

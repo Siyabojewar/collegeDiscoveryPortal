@@ -14,12 +14,21 @@ export default function PredictorPage() {
       <div className="container mx-auto px-4">
         
         {!results ? (
-          <PredictorForm 
-            input={input}
-            isPredicting={isPredicting}
-            onInputChange={handleInputChange}
-            onSubmit={handlePredict}
-          />
+          <div className="relative bg-[url('/assets/predictor-bg.png')] bg-cover bg-center rounded-3xl overflow-hidden shadow-2xl mb-12">
+            <div className="absolute inset-0 bg-blue-900/60 backdrop-blur-sm"></div>
+            <div className="relative z-10 p-6 md:p-16">
+              <div className="text-center mb-10">
+                <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">AI College Predictor</h1>
+                <p className="text-blue-100 text-lg max-w-2xl mx-auto">Enter your ranks and let our AI engine predict your best college options instantly.</p>
+              </div>
+              <PredictorForm 
+                input={input}
+                isPredicting={isPredicting}
+                onInputChange={handleInputChange}
+                onSubmit={handlePredict}
+              />
+            </div>
+          </div>
         ) : (
           <div>
             <div className="mb-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-b border-gray-200 pb-6">

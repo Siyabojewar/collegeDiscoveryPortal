@@ -17,7 +17,7 @@ function CollegesContent() {
     totalPages, 
     filters, 
     updateFilter, 
-    toggleArrayFilter 
+    applyFilters 
   } = useCollegeFilter();
 
   return (
@@ -27,28 +27,28 @@ function CollegesContent() {
         {/* Desktop Sidebar */}
         <div className="hidden lg:block w-72 shrink-0 sticky top-24">
           <FilterSidebar 
-            filters={filters} 
-            onToggleArray={toggleArrayFilter} 
-            onUpdateValue={updateFilter} 
+            initialFilters={filters} 
+            onApply={applyFilters} 
           />
         </div>
 
         {/* Main Content Area */}
         <div className="flex-1 w-full min-w-0">
           
-          <div className="bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-100 mb-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-            <div>
-              <h1 className="text-2xl font-bold text-gray-900">Explore Colleges</h1>
-              <p className="text-gray-500 mt-1 flex items-center gap-2">
-                Showing <Badge variant="neutral">{totalCount}</Badge> results matching your criteria
+          <div className="relative p-6 sm:p-8 rounded-2xl shadow-lg mb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-6 bg-[url('/assets/colleges-bg.png')] bg-cover bg-center overflow-hidden">
+            <div className="absolute inset-0 bg-blue-900/75 backdrop-blur-sm"></div>
+            
+            <div className="relative z-10">
+              <h1 className="text-3xl font-extrabold text-white">Explore Colleges</h1>
+              <p className="text-blue-100 mt-2 flex items-center gap-2 text-base">
+                Showing <Badge variant="neutral" className="!bg-white/20 !text-white border border-white/30">{totalCount}</Badge> results matching your criteria
               </p>
             </div>
             
-            <div className="flex items-center gap-3">
+            <div className="relative z-10 flex items-center gap-3">
               <FilterDrawer 
-                filters={filters} 
-                onToggleArray={toggleArrayFilter} 
-                onUpdateValue={updateFilter} 
+                initialFilters={filters} 
+                onApply={applyFilters} 
               />
               <SortDropdown 
                 currentSort={filters.sort as SortOption} 

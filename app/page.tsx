@@ -2,6 +2,7 @@ import React from 'react';
 import { HeroSection } from '@/components/home/HeroSection';
 import { TrendingFilters } from '@/components/home/TrendingFilters';
 import { TopColleges } from '@/components/home/TopColleges';
+import { TopStudyPlaces } from '@/components/home/TopStudyPlaces';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroSection />
       <TrendingFilters />
       <TopColleges />
+      <TopStudyPlaces />
     </main>
   );
 }

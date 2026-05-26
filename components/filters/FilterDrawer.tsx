@@ -5,12 +5,11 @@ import { FilterSidebar } from './FilterSidebar';
 import { Button } from '@/components/ui/Button';
 
 interface FilterDrawerProps {
-  filters: any;
-  onToggleArray: (key: string, item: string) => void;
-  onUpdateValue: (key: string, value: any) => void;
+  initialFilters: any;
+  onApply: (localFilters: any) => void;
 }
 
-export function FilterDrawer({ filters, onToggleArray, onUpdateValue }: FilterDrawerProps) {
+export function FilterDrawer({ initialFilters, onApply }: FilterDrawerProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -54,17 +53,13 @@ export function FilterDrawer({ filters, onToggleArray, onUpdateValue }: FilterDr
         </div>
         
         <FilterSidebar 
-          filters={filters} 
-          onToggleArray={onToggleArray} 
-          onUpdateValue={onUpdateValue} 
+          initialFilters={initialFilters}
+          onApply={(localFilters) => {
+            onApply(localFilters);
+            setIsOpen(false);
+          }}
           className="border-none shadow-none rounded-none !p-4 bg-transparent"
         />
-        
-        <div className="p-4 bg-white border-t border-gray-200 sticky bottom-0 z-10 mt-4 shadow-lg">
-          <Button variant="primary" className="w-full" onClick={() => setIsOpen(false)}>
-            Apply Filters
-          </Button>
-        </div>
       </div>
     </div>
   );

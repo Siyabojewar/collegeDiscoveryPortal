@@ -25,8 +25,28 @@ export function CollegeCard({ college }: CollegeCardProps) {
     }
   };
 
+  const handleShare = async (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const url = window.location.origin + `/colleges/${college.id}`;
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: college.name,
+          text: `Check out ${college.name} on College Discovery Portal!`,
+          url: url,
+        });
+      } catch (err) {
+        console.log('Error sharing', err);
+      }
+    } else {
+      navigator.clipboard.writeText(url);
+      alert('Link copied to clipboard!');
+    }
+  };
+
   return (
-    <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all duration-300 flex flex-col group h-full relative">
+    <div className="bg-gray-100 rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col hover:-translate-y-1.5 hover:shadow-xl transition-all duration-300 animate-fade-in-up group h-full relative">
       {/* Compare Checkbox */}
       <div className="absolute top-3 left-3 z-20">
         <button
@@ -51,8 +71,8 @@ export function CollegeCard({ college }: CollegeCardProps) {
         </button>
       </div>
 
-      {/* Image Section */}
-      <div className="relative h-48 w-full overflow-hidden bg-gray-100">
+      {/* Image / Header Placeholder */}
+      <div className="relative h-48 w-full overflow-hidden bg-gray-200">
         <Image
           src={college.image}
           alt={college.name}
@@ -70,6 +90,19 @@ export function CollegeCard({ college }: CollegeCardProps) {
             </svg>
             {college.rating.toFixed(1)}
           </div>
+        </div>
+        
+        {/* Share Button */}
+        <div className="absolute bottom-3 right-3 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 focus-within:opacity-100 sm:opacity-100">
+          <button
+            onClick={handleShare}
+            className="w-8 h-8 rounded-full bg-white shadow-md flex items-center justify-center text-gray-500 hover:text-blue-600 hover:bg-blue-50 transition-colors"
+            title="Share College"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+            </svg>
+          </button>
         </div>
       </div>
 

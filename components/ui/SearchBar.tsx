@@ -35,9 +35,12 @@ export function SearchBar() {
       />
       <button 
         type="submit"
-        className="px-8 py-4 bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors"
+        className="m-1.5 px-8 py-3 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 hover:scale-[1.02] active:scale-95 transition-all duration-300 shadow-md flex items-center gap-2"
       >
-        Search
+        <span>Search</span>
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        </svg>
       </button>
     </form>
   );

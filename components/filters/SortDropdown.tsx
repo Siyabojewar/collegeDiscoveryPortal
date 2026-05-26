@@ -11,7 +11,7 @@ interface SortDropdownProps {
 export function SortDropdown({ currentSort, onChange }: SortDropdownProps) {
   return (
     <div className="flex items-center gap-3">
-      <label htmlFor="sort" className="text-sm text-gray-600 font-medium whitespace-nowrap">
+      <label htmlFor="sort" className="text-sm text-gray-200 font-medium whitespace-nowrap">
         Sort by:
       </label>
       <select

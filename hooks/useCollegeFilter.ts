@@ -115,6 +115,21 @@ export function useCollegeFilter() {
     updateFilter(key, updated);
   };
 
+  const applyFilters = (newFilters: any) => {
+    const params = new URLSearchParams(searchParams.toString());
+    params.delete('page'); // Reset to page 1
+
+    if (newFilters.states?.length > 0) params.set('state', newFilters.states.join(',')); else params.delete('state');
+    if (newFilters.courses?.length > 0) params.set('course', newFilters.courses.join(',')); else params.delete('course');
+    if (newFilters.exams?.length > 0) params.set('exam', newFilters.exams.join(',')); else params.delete('exam');
+    if (newFilters.types?.length > 0) params.set('type', newFilters.types.join(',')); else params.delete('type');
+    
+    if (newFilters.maxFees && newFilters.maxFees < 3000000) params.set('maxFees', newFilters.maxFees.toString()); 
+    else params.delete('maxFees');
+
+    router.push(`${pathname}?${params.toString()}`);
+  };
+
   return {
     // Data
     colleges: paginatedColleges,
@@ -135,6 +150,7 @@ export function useCollegeFilter() {
     
     // Actions
     updateFilter,
-    toggleArrayFilter
+    toggleArrayFilter,
+    applyFilters
   };
 }

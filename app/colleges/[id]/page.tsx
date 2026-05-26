@@ -4,7 +4,9 @@ import { mockColleges } from '@/data/colleges';
 import { CollegeHero } from '@/components/college/CollegeHero';
 import { CollegeOverview } from '@/components/college/CollegeOverview';
 import { PlacementStats } from '@/components/college/PlacementStats';
+import { CollegeReviews } from '@/components/college/CollegeReviews';
 import { SimilarColleges } from '@/components/college/SimilarColleges';
+import { ShareCollegeButton } from '@/components/college/ShareCollegeButton';
 
 interface CollegePageProps {
   params: {
@@ -36,6 +38,7 @@ export default function CollegePage({ params }: CollegePageProps) {
           <div className="lg:col-span-2 space-y-8">
             <CollegeOverview college={college} />
             <PlacementStats college={college} />
+            <CollegeReviews collegeId={college.id} />
           </div>
 
           {/* Right Sidebar */}
@@ -79,9 +82,7 @@ export default function CollegePage({ params }: CollegePageProps) {
                 </li>
               </ul>
               
-              <button className="w-full mt-6 bg-blue-600 text-white font-bold py-3 rounded-xl hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg">
-                Download Brochure
-              </button>
+              <ShareCollegeButton college={college} />
             </div>
           </div>
         </div>

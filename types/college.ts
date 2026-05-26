@@ -22,6 +22,16 @@ export type College = {
   accreditation: string;
 };
 
+export type CollegeReview = {
+  id: string;
+  authorName: string;
+  rating: number;
+  date: string;
+  content: string;
+  pros: string;
+  cons: string;
+};
+
 export type FilterState = {
   search: string;
   state: string[];

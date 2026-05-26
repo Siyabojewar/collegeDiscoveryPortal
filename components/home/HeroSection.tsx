@@ -1,6 +1,7 @@
 import React from 'react';
 import { SearchBar } from '@/components/ui/SearchBar';
 import { Button } from '@/components/ui/Button';
+import { Typewriter } from '@/components/ui/Typewriter';
 
 export function HeroSection() {
   return (
@@ -22,9 +23,7 @@ export function HeroSection() {
           </span>
         </h1>
         
-        <p className="text-lg md:text-xl text-blue-100 mb-10 max-w-2xl font-light">
-          Search, compare, and get AI-driven predictions to find the perfect educational institution for your career goals.
-        </p>
+        <Typewriter />
 
         <div className="w-full mb-10">
           <SearchBar />

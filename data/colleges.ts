@@ -27,7 +27,7 @@ export const mockColleges: College[] = [
     "ranking": 1,
     "established": 1979,
     "description": "A premier government institution in Tamil Nadu known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIT%20Madras",
+    "image": "https://www.iitmz.ac.in/_next/image?url=%2Fbanner_front.jpg&w=3840&q=75",
     "accreditation": "NAAC A++"
   },
   {
@@ -56,7 +56,7 @@ export const mockColleges: College[] = [
     "ranking": 2,
     "established": 2007,
     "description": "A premier government institution in Delhi known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIT%20Delhi",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx8yeKAOlbZUR6uCyviAOQ8blM7D4nAv5Jkg&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -85,7 +85,7 @@ export const mockColleges: College[] = [
     "ranking": 3,
     "established": 1987,
     "description": "A premier government institution in Maharashtra known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIT%20Bombay",
+    "image": "https://c.ndtvimg.com/2025-07/h1sq059_iit-bombay-and-iit-delhi_625x300_25_July_25.jpg?im=FitAndFill,algorithm=dnn,width=1200,height=738",
     "accreditation": "NAAC A++"
   },
   {
@@ -113,7 +113,7 @@ export const mockColleges: College[] = [
     "ranking": 4,
     "established": 1974,
     "description": "A premier government institution in Uttar Pradesh known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIT%20Kanpur",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSCJfBP-ue2D372FtWRcLN5gBdgEAQU_slEw&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -141,7 +141,7 @@ export const mockColleges: College[] = [
     "ranking": 5,
     "established": 1995,
     "description": "A premier government institution in West Bengal known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIT%20Kharagpur",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTamT67B4fcWCl9ygXvwaBCcgDa1WCHuDVogg&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -169,7 +169,7 @@ export const mockColleges: College[] = [
     "ranking": 6,
     "established": 1967,
     "description": "A premier government institution in Uttarakhand known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIT%20Roorkee",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBNi7GAAfksV4F3tYz77CO7Pf683vRfp8_og&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -197,7 +197,7 @@ export const mockColleges: College[] = [
     "ranking": 7,
     "established": 1951,
     "description": "A premier government institution in Assam known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIT%20Guwahati",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPkzpCrNxoQPaGbeTNzhIdAxafOPRcepMBfw&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -225,7 +225,7 @@ export const mockColleges: College[] = [
     "ranking": 8,
     "established": 1964,
     "description": "A premier government institution in Telangana known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIT%20Hyderabad",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT1FdUkbQ0lNBvw_kZ8Yg73en1p-EHFqcs_g&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -253,7 +253,7 @@ export const mockColleges: College[] = [
     "ranking": 9,
     "established": 1989,
     "description": "A premier government institution in Uttar Pradesh known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIT%20BHU",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcYI7ARgXp2g4D0b3BmCX0NpfUexEd1zzXFQ&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -281,7 +281,7 @@ export const mockColleges: College[] = [
     "ranking": 10,
     "established": 1984,
     "description": "A premier government institution in Madhya Pradesh known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIT%20Indore",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGCEUKMR6HoUZGZs_ckb2fJQ2HIC4wjW6LLQ&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -309,7 +309,7 @@ export const mockColleges: College[] = [
     "ranking": 11,
     "established": 1954,
     "description": "A premier government institution in Punjab known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIT%20Ropar",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRycBQZfHD0PlNER50K1MOxUCc2-bq4z4uI0A&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -337,7 +337,7 @@ export const mockColleges: College[] = [
     "ranking": 12,
     "established": 2007,
     "description": "A premier government institution in Himachal Pradesh known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIT%20Mandi",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTvQKrbZqlfzdOd2WMgriZnY8B9PpqkYObwg&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -365,7 +365,7 @@ export const mockColleges: College[] = [
     "ranking": 13,
     "established": 1954,
     "description": "A premier government institution in Bihar known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIT%20Patna",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzFjtoFh6k7-3aCv__gQSFxTztFWSmrIpUKg&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -393,7 +393,7 @@ export const mockColleges: College[] = [
     "ranking": 14,
     "established": 1958,
     "description": "A premier government institution in Gujarat known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIT%20Gandhinagar",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG5gP81ViflP8_Q_ezWaHVEgmsjpZ3gohTqg&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -421,7 +421,7 @@ export const mockColleges: College[] = [
     "ranking": 15,
     "established": 1972,
     "description": "A premier government institution in Odisha known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIT%20Bhubaneswar",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlqjMJGB2kAfI_uAFxUJ7iwCTV0kom0t9aIg&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -449,7 +449,7 @@ export const mockColleges: College[] = [
     "ranking": 16,
     "established": 1963,
     "description": "A premier government institution in Tamil Nadu known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=NIT%20Trichy",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCkABawRhdNfGO4TzL1NiAdzHtYDzUeJywJQ&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -477,7 +477,7 @@ export const mockColleges: College[] = [
     "ranking": 17,
     "established": 1973,
     "description": "A premier government institution in Karnataka known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=NIT%20Surathkal",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJOlYnc3AfZuGQibXIEYLuQ6ShbwR7PSJ10A&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -505,7 +505,7 @@ export const mockColleges: College[] = [
     "ranking": 18,
     "established": 1968,
     "description": "A premier government institution in Telangana known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=NIT%20Warangal",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi0H7cu0LvJDmZcoV6z3srQuljE1sD_M7m0Q&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -533,7 +533,7 @@ export const mockColleges: College[] = [
     "ranking": 19,
     "established": 2006,
     "description": "A premier government institution in Odisha known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=NIT%20Rourkela",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-4PtXmVSq-QRgS7tW372htTtDNp2R0S0Hfw&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -561,7 +561,7 @@ export const mockColleges: College[] = [
     "ranking": 20,
     "established": 1963,
     "description": "A premier government institution in Kerala known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=NIT%20Calicut",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1NHlPv7T72pETF_8xXEFcMhAQ-GY5iCIfQw&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -589,7 +589,7 @@ export const mockColleges: College[] = [
     "ranking": 21,
     "established": 1990,
     "description": "A premier government institution in Haryana known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=NIT%20Kurukshetra",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr-7ZnJZepky9BLGmE-Ysx6SmMpZwPZcut1A&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -617,7 +617,7 @@ export const mockColleges: College[] = [
     "ranking": 22,
     "established": 1999,
     "description": "A premier government institution in Uttar Pradesh known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=NIT%20Allahabad",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcjrc-mRSRTU9wXC5NlTn5koxyGwCdztZ2AQ&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -645,7 +645,7 @@ export const mockColleges: College[] = [
     "ranking": 23,
     "established": 1959,
     "description": "A premier government institution in Rajasthan known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=NIT%20Jaipur",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9VCmL3AgaucVXRH8KdlWbP4vJSvGA7HfRSA&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -673,7 +673,7 @@ export const mockColleges: College[] = [
     "ranking": 24,
     "established": 1987,
     "description": "A premier government institution in Maharashtra known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=VNIT%20Nagpur",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmQDi7YQrTREW80PysSC0fTMZL59VeIlXbmg&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -701,7 +701,7 @@ export const mockColleges: College[] = [
     "ranking": 25,
     "established": 2005,
     "description": "A premier government institution in Assam known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=NIT%20Silchar",
+    "image": "https://www.nits.ac.in/storage/Campuslife_image/Campuslife_686f57205104b.jpg",
     "accreditation": "NAAC A++"
   },
   {
@@ -729,7 +729,7 @@ export const mockColleges: College[] = [
     "ranking": 26,
     "established": 1974,
     "description": "A premier government institution in Telangana known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIIT%20Hyderabad",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0-Poi3fE3opFjZH8JxIyy7U8f8WNojFa2XA&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -757,7 +757,7 @@ export const mockColleges: College[] = [
     "ranking": 27,
     "established": 1961,
     "description": "A premier government institution in Karnataka known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIIT%20Bangalore",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlDDumMK3F5Iuvtz_OOVNbWX6Ia9z4ZzOnnw&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -785,7 +785,7 @@ export const mockColleges: College[] = [
     "ranking": 28,
     "established": 1992,
     "description": "A premier government institution in Delhi known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIIT%20Delhi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/IIITD_Campus_2024.jpg",
     "accreditation": "NAAC A++"
   },
   {
@@ -813,7 +813,7 @@ export const mockColleges: College[] = [
     "ranking": 29,
     "established": 2002,
     "description": "A premier government institution in Uttar Pradesh known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIIT%20Allahabad",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP_mAKTz4o3meMG1fRDc4j14xQverk1nGyiQ&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -841,7 +841,7 @@ export const mockColleges: College[] = [
     "ranking": 30,
     "established": 1963,
     "description": "A premier government institution in Madhya Pradesh known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=IIIT%20Gwalior",
+    "image": "https://preview.redd.it/i-am-fresher-at-iiit-gwalior-ama-v0-b7sdokuob2fa1.jpg?auto=webp&s=178276c94bb1574229844eb7c99e647d0f2bccec",
     "accreditation": "NAAC A++"
   },
   {
@@ -869,7 +869,7 @@ export const mockColleges: College[] = [
     "ranking": 31,
     "established": 1990,
     "description": "A premier private institution in Rajasthan known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=BITS%20Pilani",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU6FSJ0CwmC83ue9UTs17WGEpVSTiSNc-9MA&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -897,7 +897,7 @@ export const mockColleges: College[] = [
     "ranking": 32,
     "established": 1977,
     "description": "A premier private institution in Tamil Nadu known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=VIT%20Vellore",
+    "image": "https://www.learningroutes.in/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fweb_cms_content%2FVIT_Vellore_b048d11820%2FVIT_Vellore_b048d11820.jpg&w=1920&q=75",
     "accreditation": "NAAC A++"
   },
   {
@@ -925,7 +925,7 @@ export const mockColleges: College[] = [
     "ranking": 33,
     "established": 2000,
     "description": "A premier private institution in Tamil Nadu known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=VIT%20Chennai",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSojSH8r01spJVRhs-dZpq5Fhw0XPkmSOV9Dw&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -953,7 +953,7 @@ export const mockColleges: College[] = [
     "ranking": 34,
     "established": 1953,
     "description": "A premier private institution in Andhra Pradesh known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=VIT-AP%20University",
+    "image": "https://events.vitap.ac.in/storage/event-images/01JQV3639MDS7F0M5VG962XKRW.webp",
     "accreditation": "NAAC A++"
   },
   {
@@ -981,7 +981,7 @@ export const mockColleges: College[] = [
     "ranking": 35,
     "established": 1964,
     "description": "A premier private institution in Madhya Pradesh known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=VIT%20Bhopal",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlMprog4lieejg-Eo2_jO2DbOhdSvhrIBQPQ&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -1009,7 +1009,7 @@ export const mockColleges: College[] = [
     "ranking": 36,
     "established": 1990,
     "description": "A premier private institution in Tamil Nadu known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=SRM%20Institute%20of%20Science%20and%20Technology",
+    "image": "https://images.shiksha.com/mediadata/images/1719317026phpTmdOdl.jpeg",
     "accreditation": "NAAC A++"
   },
   {
@@ -1037,7 +1037,7 @@ export const mockColleges: College[] = [
     "ranking": 37,
     "established": 1959,
     "description": "A premier private institution in Karnataka known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=Manipal%20IT",
+    "image": "https://mitmanipal.managementquotainfo.in/wp-content/uploads/sites/8/2019/12/MIT-Manipal.jpg",
     "accreditation": "NAAC A++"
   },
   {
@@ -1065,7 +1065,7 @@ export const mockColleges: College[] = [
     "ranking": 38,
     "established": 1963,
     "description": "A premier private institution in Punjab known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=Thapar%20Institute%20of%20Engineering%20and%20Technology",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-XfJyiIQJmm1vS_aX3Oo74CU8hRcMGphB_g&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -1093,7 +1093,7 @@ export const mockColleges: College[] = [
     "ranking": 39,
     "established": 1995,
     "description": "A premier private institution in Tamil Nadu known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=Amrita%20Vishwa%20Vidyapeetham",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3GRdKsmIOkpECM4TAJL_h6_SrSrTWAeXK0g&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -1121,7 +1121,7 @@ export const mockColleges: College[] = [
     "ranking": 40,
     "established": 1954,
     "description": "A premier private institution in Odisha known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=KIIT%20Bhubaneswar",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVo1nUGj2GNFcWFWdqVH1o0QfKKZw6AUoOFA&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -1149,7 +1149,7 @@ export const mockColleges: College[] = [
     "ranking": 41,
     "established": 1954,
     "description": "A premier private institution in Uttar Pradesh known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=Shiv%20Nadar%20University",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuhvqaepD6OKbuX-t5YXj-1EZJ9HpQou59FQ&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -1177,7 +1177,7 @@ export const mockColleges: College[] = [
     "ranking": 42,
     "established": 1997,
     "description": "A premier private institution in Karnataka known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=PES%20University",
+    "image": "https://images.shiksha.com/mediadata/images/articles/1589976996phpBuHIqI.jpeg",
     "accreditation": "NAAC A++"
   },
   {
@@ -1206,7 +1206,7 @@ export const mockColleges: College[] = [
     "ranking": 43,
     "established": 2009,
     "description": "A premier private institution in Karnataka known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=RV%20College%20of%20Engineering",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlRfEJh7EO4xGvEHTKlLVozhHUDttnJ0wf-w&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -1235,7 +1235,7 @@ export const mockColleges: College[] = [
     "ranking": 44,
     "established": 2004,
     "description": "A premier private institution in Karnataka known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=BMS%20College%20of%20Engineering",
+    "image": "https://admissionbackup.com/wp-content/uploads/2017/09/Direct-Admission-BMS-College-of-Engineering.jpg",
     "accreditation": "NAAC A++"
   },
   {
@@ -1264,7 +1264,7 @@ export const mockColleges: College[] = [
     "ranking": 45,
     "established": 1959,
     "description": "A premier private institution in Karnataka known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=MS%20Ramaiah%20IT",
+    "image": "https://admissionbackup.com/wp-content/uploads/2024/04/Ramaiah-Institute-of-Technology-Bangalore.jpg",
     "accreditation": "NAAC A++"
   },
   {
@@ -1292,7 +1292,7 @@ export const mockColleges: College[] = [
     "ranking": 46,
     "established": 2002,
     "description": "A premier government institution in Delhi known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=DTU",
+    "image": "https://learn.vcnow.in/wp-content/uploads/2026/01/DTU.jpg",
     "accreditation": "NAAC A++"
   },
   {
@@ -1320,7 +1320,7 @@ export const mockColleges: College[] = [
     "ranking": 47,
     "established": 1986,
     "description": "A premier government institution in Delhi known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=NSUT",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl27dG9odfo43Ao4D9oLsRUJs_A1RU3SEVog&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -1348,7 +1348,7 @@ export const mockColleges: College[] = [
     "ranking": 48,
     "established": 1961,
     "description": "A premier government institution in West Bengal known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=Jadavpur%20University",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUgoENdKsrVgMIMMX1vLF1bxZCdSCRNh11QA&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -1376,7 +1376,7 @@ export const mockColleges: College[] = [
     "ranking": 49,
     "established": 1951,
     "description": "A premier government institution in Maharashtra known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=COEP%20Technological%20University",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVkFbeI8XtQDha5r-LnyiLKQrIzB0kYXAexQ&s",
     "accreditation": "NAAC A++"
   },
   {
@@ -1404,7 +1404,7 @@ export const mockColleges: College[] = [
     "ranking": 50,
     "established": 1981,
     "description": "A premier government institution in Tamil Nadu known for excellent academics and placements.",
-    "image": "https://placehold.co/600x400/1d4ed8/FFFFFF?text=Anna%20University",
+    "image": "https://www.annauniv.edu/images/main-slider/slide1.jpeg",
     "accreditation": "NAAC A++"
   }
 ];
